@@ -1,8 +1,4 @@
-'use strict';
-
-if (typeof window === 'undefined') {
-    var moment = require('moment');
-}
+var moment = require('moment');
 
 moment.fn.isHoliday = function () {
     var locale = this.localeData();
